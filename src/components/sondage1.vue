@@ -466,7 +466,7 @@ small, .font_small {font-size: 0.618vw;}
 .img1{
 position: absolute;
  width: 68.5vw;
-
+ border-radius: 1vw;
     height: 42.3vw;
    margin-top: 1.618vw;
     margin-left:-30vw;
