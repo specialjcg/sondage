@@ -1,0 +1,34 @@
+.blockparallaxgeneral {
+  width: 100vw;
+  height: 60vw;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 1);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+}
+ .blockparallaxgeneral2 {
+background-image:linear-gradient(180deg, rgba(207, 243, 133, 1) 0%,rgba(98, 180, 177, 1) 100%);
+filter: drop-shadow(10px 10px 10px black);
+ width: 100vw;
+ height: 60vw;
+position: absolute;
+
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ opacity: 1;
+
+ padding: 0;
+ margin: 0;
+ }
