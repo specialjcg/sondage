@@ -1,25 +1,32 @@
 <template>
   <div class="blockparallaxgeneral2">
-<div v-if="index===1" key="un" class="question monfond">
-<h3 >Comment être en premiere page google gratuitement?</h3>
+    <div class="questionaccroche"><h3 >Comment être en premiere page google gratuitement?</h3></div>
+
+    <div class="question monfond">
+      <button class="cta" @click.prevent="runMain1()">Valider</button>
+<div v-if="index===1" key="un" >
+
 <h4 class="questionsoustitre">Possédez vous un site web?</h4>
 <boutontoogle class="list"></boutontoogle>
-<button class="cta" @click.prevent="runMain1()">Valider</button>
+
 </div>
-<div v-if="index===2" key="deux" class="question monfond">
-<h3 >Comment être en premiere page google gratuitement?</h3>
+<div v-if="index===2" key="deux" >
+
 <h4 class="questionsoustitre">Pourquoi renouveler votre site Web ? </h4>
 <ul>
-<li>Acquérir de nouveaux clients </li><boutontoogle class="list"></boutontoogle>
-<li>Fournir un meilleur service client </li><boutontoogle class="list"></boutontoogle>
-<li>me développer à l’international </li><boutontoogle class="list"></boutontoogle>
-<li>Améliorer mon image </li><boutontoogle class="list"></boutontoogle>
-<li>Parce qu’un site vieillit et devient obsolète.</li><boutontoogle class="list"></boutontoogle>
+<li>Acquérir de nouveaux clients <boutontoogle class="list"></boutontoogle></li>
+<li>Fournir un meilleur service client <boutontoogle class="list"></boutontoogle></li>
+<li>Me développer à l’international <boutontoogle class="list"></boutontoogle></li>
+<li>Améliorer mon image <boutontoogle class="list"></boutontoogle></li>
+<li>Parce qu’un site vieillit et devient obsolète.<boutontoogle class="list"></boutontoogle></li>
 </ul>
-<button class="cta" @click.prevent="runMain1()">Valider</button>
+
+
 </div>
-<div v-if="index===3" key="trois" class="question monfond">
-<h3 >Comment être en premiere page google gratuitement?</h3>
+
+
+<div v-if="index===3" key="trois" >
+
 <h4 class="questionsoustitre">A quelle fréquence souhaiteriez vous faire une refonte de votre site</h4>
 <ul>
 <li>chaque année</li><boutontoogle class="list"></boutontoogle>
@@ -27,10 +34,10 @@
 <li>tous les 5 ans</li><boutontoogle class="list"></boutontoogle>
 </ul>
 
-<button class="cta" @click.prevent="runMain1()">Valider</button>
+
 </div>
-<div v-if="index===4" key="4" class="question monfond">
-<h3 >Comment être en premiere page google gratuitement?</h3>
+<div v-if="index===4" key="4" >
+
 <h4 class="questionsoustitre">Que souhaiteriez vous faire évoluer sur votre site: </h4>
 <ul>
 <li>Avoir un design plus attrayant et ergonomique</li><boutontoogle class="list"></boutontoogle>
@@ -39,40 +46,66 @@
 <li>Augmenter mon taux de conversion</li><boutontoogle class="list"></boutontoogle>
 </ul>
 
-<button class="cta" @click.prevent="runMain1()">Valider</button>
+
 </div>
-<div v-if="index===5" key="5" class="question monfond">
-<h3 >Comment être en premiere page google gratuitement?</h3>
+<div v-if="index===5" key="5" >
+
 <h4 class="questionsoustitre">Quelles valeurs votre site web devrait apporter à vos clients </h4>
 <li>Donner des informations uniques, inédites, originales qui intéressent mes clients</li><boutontoogle class="list"></boutontoogle>
 <li>Proposer des conseils pratiques ou des tutoriels</li><boutontoogle class="list"></boutontoogle>
 <li>Apporter ma touche personnelle dans les contenus : mes clients se sentiront davantage concernés.</li><boutontoogle class="list"></boutontoogle>
 
 
-<button class="cta" @click.prevent="runMain1()">Valider</button>
+
 </div>
-<div v-if="index===6" key="6" class="question monfond">
-<h3 >Comment être en premiere page google gratuitement?</h3>
+<div v-if="index===6" key="6" >
+
 <h4 class="questionsoustitre">Pour développer votre site Web vous opteriez pour: </h4>
 <li>Une plateforme de création de site web</li><boutontoogle class="list"></boutontoogle>
 <li>Un développeur web freelance</li><boutontoogle class="list"></boutontoogle>
 <li>Une agence web</li><boutontoogle class="list"></boutontoogle>
 
 
-<button class="cta" @click.prevent="runMain1()">Valider</button>
+
 </div>
-<div v-if="index===7" key="7" class="question monfond">
-<h3 >Comment être en premiere page google gratuitement?</h3>
+<div v-if="index===7" key="7" >
+
 <h4 class="questionsoustitre">Quel budget allouerez-vous à votre projet?</h4>
 <li>Moins de 1 000 €</li><boutontoogle class="list"></boutontoogle>
 <li>10 000 - 20 000 €</li><boutontoogle class="list"></boutontoogle>
 <li>Ne se prononce pas</li><boutontoogle class="list"></boutontoogle>
 
 
-<button class="cta" @click.prevent="runMain1()">Valider</button>
+
+</div>
+<div v-if="index===8" key="8" >
+
+<h4 class="questionsoustitre">Pour vous, quelles sont  les raisons de ne pas avoir de site web.?</h4>
+<ul>
+<li>Trop cher </li><boutontoogle class="list"></boutontoogle>
+<li>Mon commerce fonctionne très bien </li><boutontoogle class="list"></boutontoogle>
+<li>J'ai déjà des clients </li><boutontoogle class="list"></boutontoogle>
+<li>Je n'ai aucune maitrise et connaissance concernant le sujet </li><boutontoogle class="list"></boutontoogle>
+
+</ul>
+
+
+</div>
+<div v-if="index===9" key="9" >
+
+<h4 class="questionsoustitre">Vous souhaiteriez créer un site web pour:</h4>
+<ul>
+<li>Améliorer votre notoriété. </li><boutontoogle class="list"></boutontoogle>
+<li>Guider vos clients vers votre entreprise.</li><boutontoogle class="list"></boutontoogle>
+<li>Pour mieux connaître sa clientèle. </li><boutontoogle class="list"></boutontoogle>
+<li>Pour ne pas laisser la place libre à votre concurrence </li><boutontoogle class="list"></boutontoogle>
+
+</ul>
+
+
 </div>
 
-
+</div>
 <div class="Name">
 					<input v-model="URL_TO_GET_RESULTS_FOR" id="idname" type="text" placeholder="votre url"    required />
 <button @click.prevent="runMain()">évaluons votre site gratuitement</button>
@@ -248,7 +281,7 @@ this.runPagespeed();
 
   },
   runMain1(){
-    if (this.index<7) {this.index++;}else{this.index=1;}
+    if (this.index<9) {this.index++;}else{this.index=1;}
 }
 }}
 </script>
@@ -282,7 +315,7 @@ width:25vw;
 }
 .Name{
   position:relative;
-  margin-top: 1.618vw;
+margin-top: 1.618vw;
 display: flex;
 margin-left: 20vw;
 
@@ -299,14 +332,7 @@ z-index: 5;
  width: 68.5vw;
 
 }
-.list{
 
-padding-left: 0.5vw;
- min-width: 6vw;
-   align-self: flex-start;
-flex: 0 1 auto;
-
-}
 input{
 width:13vw;
 height: 4.236vw;
@@ -357,7 +383,17 @@ flex: 1 1 auto;
 
     font-weight: 800;
   }
-
+.questionaccroche{
+margin-top: 18.18vw;
+margin-left: 5vw;
+position: absolute;
+background-image: linear-gradient(to left top, #4ba62a, #71b846, #93ca61, #b3dc7c, #d1ef99);
+ border-radius: 1vw;
+max-width: 63vw;
+padding:1vw;
+ text-align: left;
+ z-index:7;
+}
   .question {
     display:flex;
     justify-content:flex-start;
@@ -372,54 +408,90 @@ background-image: linear-gradient(to left top, #4ba62a, #71b846, #93ca61, #b3dc7
  border-radius: 1vw;
 max-width: 63vw;
 background-size: 400% 400%;
-height: 16.18vw;
+height: 17.88vw;
 padding:1vw;
  text-align: left;
+
 z-index:7;
   }
 .cta{
-align-self: flex-start;
-flex: 0 1 auto;
+  position: absolute;
+   margin-left: 42vw;
+   margin-top:0.35vw;
+z-index:8;
 }
 .questionsoustitre{
   margin:auto;
 min-width: 62vw;
   align-self: flex-start;
-
+background: #D6F49D;
 padding:0.618vw;
 }
  ul {
 display:flex;
-    justify-content:flex-start;
-  align-content:flex-start;
+    justify-content:space-around;
+  align-content:space-around;
     align-items:flex-start;
     flex-direction: row;
-flex-wrap:wrap;
-font-family: 'Courgette', cursive;
+flex-wrap:no-wrap;
+font-family: 'Bitter', cursive;
 font-size: 1vw;
 list-style-type: none;
-    margin: 0;
-    padding: 0;
+padding-inline-start:0;
 
+background-color:#6BB9AD;
+border-radius: 1vw;
   }
 
 
 
-  p,li {
+  p {
     min-width: auto;
    align-self: flex-start;
 flex: 0 1 auto;
 margin-bottom: 1.618vw;
     font-weight: inherit;
-    font-family: 'Courgette', cursive;
+    font-family: 'Bitter', cursive;
      font-size: 1vw;
 line-height:1.5vw;
-padding-left:0.5vw
+padding-left:0.5vw;
+color: black;
+margin: 1.614vw 0 0.5vw;
   }
 
+ li {
+    min-width: auto;
+   align-self: flex-start;
+flex: 0 1 auto;
+
+    font-weight: inherit;
+    font-family: 'Bitter', cursive;
+     font-size: 1vw;
+line-height:1.5vw;
+padding:0.5vw;
+color: black;
+margin: 0.618vw 0 0.5vw;
+
+background-color: aliceblue;
+height:12.18vw;
+width:10vw;
+text-align: center;
+border-radius: 1vw;
+  }
+li:hover{
+
+background-color:rgb(128, 128, 128,0.7);
 
 
+}
 
+
+.list{
+position:absolute;
+margin: 7.5vw 2vw auto;
+
+
+}
 
 
 h1 {
@@ -434,9 +506,14 @@ h2 {
   }
 
 h3 {
-
+font-family: 'Courgette', cursive;
+    font-weight: inherit;
+    line-height: 1.2;
+margin-top:1vw;
+margin-bottom: 1vw;
   font-size: 2.618vw;
   color: black;
+
 }
 
 h4 {font-size: 1.618vw;
@@ -446,12 +523,13 @@ color:black;
 small, .font_small {font-size: 0.618vw;}
   h1,
   h2,
-  h3,
+
   h4 {
-    /*margin: 1.414em 0 0.5vw;*/
+    margin: 1.614vw 0 0.5vw;
     font-family: 'Courgette', cursive;
     font-weight: inherit;
     line-height: 1.2;
+
   }
 
 
